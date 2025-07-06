@@ -5,10 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Spanish Flashcards</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Google AdSense Auto Ads Code -->
+  <!-- Replace 'ca-pub-YOUR_PUBLISHER_ID' with your actual Google AdSense Publisher ID -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8722895556592607"
+          crossorigin="anonymous"></script>
+  <!-- End Google AdSense Auto Ads Code -->
+
 </head>
 <body>
   <div class="app">
     <h1>🇪🇸 Learn Spanish</h1>
+
+    <!-- AdSense Ad Unit 1: Below the main title -->
+    <!-- This is an example of an individual ad unit. You'll get the 'data-ad-slot' from AdSense. -->
+    <div class="ad-container" style="margin-bottom: 20px;">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+           data-ad-slot="YOUR_AD_SLOT_ID_1"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
     <div class="flashcard" id="flashcard">
       <div class="front" id="frontText">Hola</div>
       <div class="back" id="backText">Hello</div>
@@ -18,6 +38,19 @@
       <button onclick="flipCard()">🔄 Flip</button>
       <button onclick="nextCard()">➡️ Next</button>
     </div>
+
+    <!-- AdSense Ad Unit 2: Below the controls -->
+    <!-- Another example of an individual ad unit. -->
+    <div class="ad-container" style="margin-top: 20px;">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-client="ca-pub-8722895556592607"
+           data-ad-slot="8314632612"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
   </div>
   <script src="script.js"></script>
 </body>
